@@ -1,9 +1,8 @@
 // Copyright 2021 NNTU-CS
-#include "alg.h"
-#include "tstack.h"
 #include <string>
+#include <map>
 #include <cctype>
-#include <stdexcept>
+#include "tstack.h"
 
 int getPriority(char op) {
     switch (op) {
